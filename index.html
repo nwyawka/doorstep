@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Doorstep Design - Curated Seasonal Décor, Delivered to Your Doorstep. Luxury holiday decoration installation and removal services in Annapolis, Baltimore, and DC Metro.">
+  <meta name="author" content="Doorstep Design">
+  <meta property="og:title" content="Doorstep Design - Luxury Holiday Decorations">
+  <meta property="og:description" content="Curated Seasonal Décor, Delivered to Your Doorstep">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doorstep.design">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0F5132">
+
+  <title>Doorstep Design - Luxury Holiday Decoration Services</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <a href="#home" class="brand-link">
+          <h1 class="brand-name">Doorstep Design</h1>
+        </a>
+      </div>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#service-areas" class="nav-link">Service Areas</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link nav-cta">Contact Us</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Social Media Bar -->
+  <div class="social-bar">
+    <p class="social-label">Spread Holiday Cheer:</p>
+    <div class="social-buttons">
+      <a href="#" class="social-btn" aria-label="Share on Facebook" data-platform="facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on Instagram" data-platform="instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on Pinterest" data-platform="pinterest">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on Twitter" data-platform="twitter">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on LinkedIn" data-platform="linkedin">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on TikTok" data-platform="tiktok">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on YouTube" data-platform="youtube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share on WhatsApp" data-platform="whatsapp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Share via Email" data-platform="email">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+      <a href="#" class="social-btn" aria-label="Copy Link" data-platform="copy">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Curated Seasonal Décor,<br>Delivered to Your Doorstep</h1>
+      <p class="hero-subtitle">Transform your home into a winter wonderland with our luxury Christmas decoration services</p>
+      <a href="#contact" class="btn btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3 class="service-title">Professional Installation</h3>
+          <p class="service-description">Our expert team brings your vision to life with meticulous attention to detail. From elegant wreaths to grand outdoor displays, we handle everything.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Custom Design</h3>
+          <p class="service-description">Work with our designers to create a unique holiday aesthetic that reflects your style and complements your home's architecture.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Premium Decorations</h3>
+          <p class="service-description">Choose from our curated collection of high-quality seasonal décor, or we'll source decorations based on your preferences.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Seasonal Removal & Storage</h3>
+          <p class="service-description">When the season ends, we carefully remove and store your decorations, ensuring they're pristine for next year.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Rental Options</h3>
+          <p class="service-description">Enjoy luxury decorations without the commitment. Our rental program offers flexibility and variety season after season.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Full-Service Concierge</h3>
+          <p class="service-description">Sit back and relax. From consultation to installation to removal, we manage every detail of your holiday décor experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas Map Section -->
+  <section id="service-areas" class="section service-areas-map">
+    <div class="container">
+      <h2 class="section-title">Where We Serve</h2>
+      <p class="section-subtitle">Bringing holiday elegance to the finest homes in Maryland and DC</p>
+
+      <div class="maps-grid">
+        <div class="map-card">
+          <h3 class="map-title">Annapolis & Anne Arundel County</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198622.89929291106!2d-76.69221293539307!3d38.97840479381456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f65f8fe52a63%3A0xd80d97ba1075d730!2sAnnapolis%2C%20MD!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <p class="map-description">Serving Annapolis and all of Anne Arundel County with premier holiday decoration services.</p>
+        </div>
+
+        <div class="map-card">
+          <h3 class="map-title">Baltimore & Baltimore County</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197634.84037722968!2d-76.77883653533173!3d39.29058025476963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20MD!5e0!3m2!1sen!2sus!4v1234567890124!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <p class="map-description">Transforming homes throughout Baltimore and Baltimore County into winter wonderlands.</p>
+        </div>
+
+        <div class="map-card">
+          <h3 class="map-title">Washington DC Metro</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198564.37810936616!2d-77.23239533537734!3d38.89376909855715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1234567890125!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <p class="map-description">Providing luxury seasonal décor throughout the Washington DC metropolitan area including Montgomery County and Howard County.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <p class="section-subtitle">A glimpse of our festive transformations</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800&h=600&fit=crop" alt="Elegant Christmas wreath on front door" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Classic Elegance</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1543589876-2c33f46a8ba3?w=800&h=600&fit=crop" alt="Beautifully decorated Christmas tree" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Winter Wonderland</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=800&h=600&fit=crop" alt="Outdoor Christmas lights display" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Luminous Display</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1576919228236-a097c32a5cd4?w=800&h=600&fit=crop" alt="Festive mantel decoration" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Festive Charm</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1544376664-80b17f09d399?w=800&h=600&fit=crop" alt="Christmas porch decoration" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Grand Entrance</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1513757378314-e46255f6ed16?w=800&h=600&fit=crop" alt="Elegant holiday table setting" loading="lazy">
+          <div class="gallery-overlay">
+            <p class="gallery-caption">Refined Details</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">About Doorstep Design</h2>
+          <p>At Doorstep Design, we believe that the holidays should be a time of joy, not stress. Founded in the heart of the Annapolis, Baltimore, and DC metropolitan area, we specialize in transforming homes into breathtaking seasonal showcases.</p>
+
+          <p>Our team of experienced designers and installers bring creativity, precision, and a passion for excellence to every project. Whether you're hosting an intimate gathering or creating a neighborhood spectacle, we work closely with you to bring your vision to life.</p>
+
+          <p>We pride ourselves on our white-glove service, premium materials, and meticulous attention to detail. From the first consultation to the final installation, we handle every aspect with care and professionalism.</p>
+
+          <div class="service-areas">
+            <h3>Service Areas</h3>
+            <ul>
+              <li>Annapolis & Anne Arundel County</li>
+              <li>Baltimore & Baltimore County</li>
+              <li>Washington, DC Metro Area</li>
+              <li>Montgomery County, MD</li>
+              <li>Howard County, MD</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?w=600&h=800&fit=crop" alt="Beautifully decorated home for Christmas" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>When should I book my holiday decoration service?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We recommend booking as early as possible, ideally 6-8 weeks before your desired installation date. Our calendar fills quickly during peak season (November-December). Early booking ensures you get your preferred dates and gives us ample time to design your perfect holiday display.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What areas do you serve?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We proudly serve the Annapolis, Baltimore, and Washington DC metropolitan areas, including Anne Arundel County, Baltimore County, Montgomery County, Howard County, and surrounding regions. Contact us to confirm service availability in your specific location.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you provide the decorations, or do I need to supply them?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We offer flexible options! You can choose from our curated collection of premium decorations (purchase or rental), provide your own decorations for us to install, or we can source specific items based on your vision. During your consultation, we'll discuss which approach works best for your needs and budget.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does installation typically take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Installation time varies depending on the scope of your project. A simple indoor tree and mantel setup might take 2-4 hours, while an elaborate full-home exterior and interior design can take 1-2 days. We'll provide a detailed timeline during your consultation.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What happens if a decoration is damaged or a light goes out?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We use only high-quality, durable decorations and lights. However, if any issues arise during the season, simply contact us and we'll come out to make repairs or replacements at no additional charge for items we've installed. This is part of our commitment to keeping your display looking pristine throughout the season.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is removal included in the service?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! All our installation packages include professional removal and storage. We carefully take down your decorations after the season, inspect them for any needed repairs, and store them in climate-controlled facilities (for rental items) or pack them securely for your storage (for purchased items). You can also opt for removal-only services if you've decorated yourself.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are your installations safe and up to code?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Safety is our top priority. Our team is trained in proper installation techniques, and we use commercial-grade, weather-resistant materials. All electrical work follows local codes and safety standards. We're fully insured for your peace of mind.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can you help with events and parties beyond standard holiday decoration?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! While we specialize in seasonal holiday décor, we also provide decoration services for special events, holiday parties, and celebrations. Whether you're hosting a festive soirée or want to create an unforgettable holiday experience for guests, we can design and execute the perfect atmosphere.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What should I consult before booking?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Before booking, we recommend reviewing your property's user manual or HOA guidelines for any restrictions on outdoor decorations, electrical usage, or installation methods. This helps ensure a smooth installation process and compliance with all relevant regulations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Ready to transform your home this holiday season? Let's make it magical.</p>
+
+      <div class="contact-content">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="installation">Installation</option>
+                <option value="design">Custom Design</option>
+                <option value="rental">Rental</option>
+                <option value="removal">Removal & Storage</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>Service Hours</h3>
+            <p>Monday - Saturday: 8:00 AM - 6:00 PM<br>Sunday: By Appointment</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Coverage Area</h3>
+            <p>Annapolis, Baltimore, and DC Metro<br>Serving Maryland's finest homes since 2024</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Response Time</h3>
+            <p>We typically respond to inquiries within 24 hours during business days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Doorstep Design</h3>
+          <p>Curated Seasonal Décor, Delivered to Your Doorstep</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#service-areas">Service Areas</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Connect</h4>
+          <p>Annapolis | Baltimore | DC Metro</p>
+          <p>&copy; 2025 Doorstep Design. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
